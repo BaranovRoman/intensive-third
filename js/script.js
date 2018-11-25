@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
 	//Получили информацию для работы, объявили нужные переменные
-	let products = document.querySelectorAll('.product'),
+	let products = document.querySelectorAll('.products'),
 			buttons = document.getElementsByTagName("button"),
 			open = document.getElementsByClassName("open")[0];
 	//функция для создания корзины
